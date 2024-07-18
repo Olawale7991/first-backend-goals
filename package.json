@@ -1,0 +1,21 @@
+{
+  "name": "goals-backend-project",
+  "version": "1.0.0",
+  "description": "goals project",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon Goals/script.js"
+  },
+  "keywords": [
+    "goals"
+  ],
+  "author": "Olawale",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4"
+  }
+}
